@@ -1,0 +1,19 @@
+.img-item {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.img-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 560px;
+}
+.carousel {
+  margin-top: 50px;
+  height: 560px;
+}
+.carousel-item {
+  height: 560px;
+}
+

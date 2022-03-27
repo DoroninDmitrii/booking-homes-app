@@ -1,0 +1,103 @@
+.formbooking-main {
+  margin-top: 3%;
+  font-family: "Montserrat Light";
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.63);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.63);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.63);
+  background: -webkit-linear-gradient(315deg, rgb(255, 255, 255), rgb(212, 251, 251));
+  background: -moz-linear-gradient(315deg, rgb(255, 255, 255), rgb(212, 251, 251));
+  background: linear-gradient(315deg, rgb(255, 255, 255), rgb(212, 251, 251));
+}
+.formbooking-smallmain {
+  margin-left: 20px;
+}
+.formbooking-input{
+  display: flex;
+  margin-bottom: 1%;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
+.input1 {
+  border-radius: 4px !important;
+  background-color:rgba(255, 251, 251, 0.479) !important;
+  border: 1px solid rgb(0, 0, 0) !important;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2) !important;
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2) !important;
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2) !important;
+}
+.formbooking-div {
+  width: 320px;
+  padding-right: 15px;
+}
+.formbooking-header {
+ background-color:  rgb(167, 225, 225);
+ display:flex;
+ height: 50px;
+}
+.calendar-logo {
+  position: absolute;
+  max-width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.data-calendar {
+  margin-bottom: 40px;
+  font-family: "Montserrat Bold";
+  margin-left: 50px;
+}
+.backbutton {
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: 200;
+  line-height: 3.05;
+  font-size: 17px;
+  border: 0px;
+  font-family: "Montserrat Light";
+  background: transparent;
+}
+.backbutton:hover {
+  background: rgba(145, 228, 231, 0.329);
+}
+.summa-zakaza {
+  font-family: "Montserrat Bold";
+}
+.dopoptions{
+  font-family: "Montserrat Bold";
+}
+.rub {
+  color: red;
+}
+.span-housename {
+  font-family: "Montserrat Bold";
+}
+.button-booking-buy {
+  width: 266px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: 200;
+  line-height: 3.05;
+  font-size: 17px;
+  border: 0px;
+  font-family: "Montserrat Light";
+  background: transparent;
+  background: -webkit-linear-gradient(
+    135deg,
+    rgb(152, 207, 195),
+    rgb(86, 181, 184)
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    rgb(152, 207, 195),
+    rgb(117, 185, 187)
+  );
+  background: linear-gradient(135deg, rgb(152, 207, 195), rgb(86, 181, 184));
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  margin-bottom: 1.5%;
+}
+.button-booking-buy:hover {
+  background: rgb(162, 234, 236);
+}

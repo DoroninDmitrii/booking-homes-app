@@ -1,0 +1,15 @@
+.confirmreviews {
+display: flex;
+flex-wrap: wrap;
+margin: 0 30px;
+/* background: -webkit-linear-gradient(135deg,
+rgb(152, 207, 195),
+rgb(86, 181, 184));
+background: -moz-linear-gradient(135deg,
+rgb(152, 207, 195),
+rgb(86, 181, 184));
+background: linear-gradient(135deg, rgb(230, 243, 240), rgb(125, 185, 187));
+box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+border-radius: 5px; */
+}
+

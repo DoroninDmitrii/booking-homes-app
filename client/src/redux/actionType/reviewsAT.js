@@ -1,0 +1,3 @@
+export const INIT_REVIEWS = 'INIT_REVIEWS';
+export const ADD_REVIEW = 'ADD_REVIEW';
+export const CONFIRM_REVIEWS = 'CONFIRM_REVIEWS';

@@ -1,0 +1,101 @@
+.homesCard_box {
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.homesCard-header {
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.homesCard-header-container {
+  margin-top: 30px;
+}
+.nameHome-card {
+  
+}
+.descHome-card {
+  margin-top: 10px;
+  font-family: "Montserrat Light";
+}
+.priceHome-card {
+  font-family: "Montserrat Bold";
+  color: green;
+  margin-top: 10px;
+}
+.nameHome-span {
+  font-family: "Montserrat Bold";
+  font-size: 23px;
+}
+.optionsHome-card {
+  margin-top: 15px;
+  display: flex;
+
+}
+.squareHome-options {
+  display: flex;
+  align-items: center;
+  background-color: rgba(173, 173, 173, 0.288);
+  margin-left: 10px;
+  height: 30px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.18);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.18);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.18);
+}
+.squareHome-logo {
+  position: absolute;
+  max-width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  /* margin-top: 0px; */
+}
+.text-options {
+  margin-left: 34px;
+  font-family: "Montserrat Medium";
+  margin-right: 5px;
+}
+.header-mini-cont {
+  width: 50%
+}
+.calendar-container {
+background-color: rgba(159, 241, 217, 0.295);
+  color: red;
+  font-family: "Montserrat Medium";
+}
+.link-to-booking {
+  margin-top: -18px;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: 200;
+  line-height: 3.55;
+  font-size: 17px;
+  border: 0px;
+  font-family: "Montserrat Light";
+  background: transparent;
+  background: -webkit-linear-gradient(
+    135deg,
+    rgb(152, 207, 195),
+    rgb(86, 181, 184)
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    rgb(152, 207, 195),
+    rgb(117, 185, 187)
+  );
+  background: linear-gradient(135deg, rgb(152, 207, 195), rgb(86, 181, 184));
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  margin-bottom: 40px;
+
+}
+.link-to-booking a {
+  color: black;
+}
+.link-to-booking a:hover {
+  color: white;
+}

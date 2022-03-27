@@ -1,0 +1,18 @@
+.map-container {
+  display: flex;
+  margin-top: 110px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.map-options-container {
+  margin-left: 40px;
+  /* padding-right: 100px; */
+  width: "20%" !important;
+  font-family: "Montserrat Regular";
+}
+.map-options-container h3 {
+  font-family: "Montserrat Black";
+}
+.map-options-container h5 {
+  font-family: "Montserrat Medium";
+}

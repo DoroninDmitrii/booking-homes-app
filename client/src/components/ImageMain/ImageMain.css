@@ -1,0 +1,73 @@
+.image-imageMain {
+  position: relative;
+  height: 100vh;
+}
+
+.image-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* height: 100vh; */
+  width: 110vh;
+}
+
+.parallax-text {
+  /* width: 50%; */
+  margin-top: 150px;
+  margin-left: 17%;
+  /* margin-bottom: -10px; */
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  font-family: "Montserrat Bold";
+  line-height: 1.1;
+}
+
+.parallax-text p {
+  margin-bottom: -13px;
+}
+
+.parallax-text-2 {
+  margin-bottom: 30px;
+  font-family: "Montserrat Light";
+  font-size: 30px;
+}
+
+.bnt-buy {
+  width: 240px;
+  height: 70px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 200;
+  line-height: 3.05;
+  font-size: 17px;
+  border: 0px;
+  font-family: "Montserrat Light";
+  background: transparent;
+  background: -webkit-linear-gradient(135deg,
+      rgb(152, 207, 195),
+      rgb(86, 181, 184));
+  background: -moz-linear-gradient(135deg,
+      rgb(152, 207, 195),
+      rgb(86, 181, 184));
+  background: linear-gradient(135deg, rgb(152, 207, 195), rgb(86, 181, 184));
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  transition: 400ms ease-in;
+}
+
+.bnt-buy span {
+  color: rgb(0, 0, 0);
+}
+
+.bnt-buy:hover {
+  transform: scale(1.05);
+  /* color: white; */
+  transition: 0.4s ease-out;
+}
+
+.bnt-buy:hover span {
+  /* color: white; */
+  transition: 0.3s ease-out;
+}

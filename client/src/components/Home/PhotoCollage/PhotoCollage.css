@@ -1,0 +1,161 @@
+.img-item {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.flex {
+  margin-top: 80px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 15px; */
+  margin: 10px;
+  margin-bottom: -80px;
+}
+
+.photo-text {
+  position: absolute;
+  font-family: "Montserrat Medium";
+  color: white;
+  font-size: 24px;
+}
+
+.about-photo {
+  margin-bottom: 150px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.about-text {
+  font-family: "Montserrat Regular";
+}
+
+.about-h1 {
+  font-family: "Montserrat Medium";
+}
+
+.about-h2 {
+  font-size: 30px;
+  font-family: "Montserrat Bold";
+}
+
+.about-photo-1 {
+  height: 460px;
+  width: 450px;
+  background-color: bisque;
+  background-image: url("../../../img/ozero.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.about-photo-1:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+.about-photo-3 {
+  height: 460px;
+  width: 450px;
+  background-color: bisque;
+  background-image: url("../../../img/inter2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.about-photo-3:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+.about-photo-2 {
+  height: 460px;
+  width: 450px;
+  background-color: bisque;
+  background-image: url("../../../img/aframe.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.about-photo-2:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+
+
+.review-container {
+  /* margin-top: 130px; */
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.review-picture img {
+  width: 100%;
+  /* width: 220px;
+  height: 220px; */
+}
+
+.review-options {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 20px; */
+  /* padding-left: 40px; */
+}
+
+.text-span {
+  font-size: 20px;
+  font-family: "Montserrat Bold";
+}
+
+.btn-about_reviews {
+  width: 240px;
+  height: 70px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 200;
+  line-height: 3.05;
+  font-size: 17px;
+  border: 0px;
+  font-family: "Montserrat Light";
+  background: transparent;
+  background: -webkit-linear-gradient(135deg,
+      rgb(152, 207, 195),
+      rgb(86, 181, 184));
+  background: -moz-linear-gradient(135deg,
+      rgb(152, 207, 195),
+      rgb(86, 181, 184));
+  background: linear-gradient(135deg, rgb(152, 207, 195), rgb(86, 181, 184));
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  transition: 400ms ease-in;
+}
+
+.btn-about_reviews:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-out;
+}
+
+.btn-about_reviews a {
+  color: black;
+}
+
+.review-text {
+  font-family: "Montserrat Light";
+}
+
+.review-h1 {
+  font-family: "Montserrat Bold";
+}
+
+

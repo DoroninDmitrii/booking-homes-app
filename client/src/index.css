@@ -1,0 +1,78 @@
+html {
+  /* background-color: #dcffc7; */
+  background-size: 100%;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+  font-family: "Montserrat Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat BlackItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-Thin.ttf");
+}
+@font-face {
+  font-family: "Montserrat Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Montserrat-Light.ttf");
+}

@@ -1,0 +1,1 @@
+export const ADD_HOUSE_FETCH = 'ADD_HOUSE_FETCH';

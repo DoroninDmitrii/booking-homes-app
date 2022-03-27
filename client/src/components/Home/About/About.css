@@ -1,0 +1,68 @@
+.about-container {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-picture img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.about-options {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.text-span {
+  font-size: 20px;
+  font-family: "Montserrat Bold";
+}
+
+.btn-about_us {
+  width: 240px;
+  height: 70px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 200;
+  line-height: 3.05;
+  font-size: 17px;
+  border: 0px;
+  font-family: "Montserrat Light";
+  background: transparent;
+  background: -webkit-linear-gradient(135deg,
+      rgb(152, 207, 195),
+      rgb(86, 181, 184));
+  background: -moz-linear-gradient(135deg,
+      rgb(152, 207, 195),
+      rgb(86, 181, 184));
+  background: linear-gradient(135deg, rgb(152, 207, 195), rgb(86, 181, 184));
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  transition: 400ms ease-in;
+}
+
+.btn-about_us a {
+  color: black;
+  font-family: "Montserrat Light";
+}
+
+.btn-about_us:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-out;
+}
+
+.text-p {
+  font-family: "Montserrat Black";
+}
+
+.about-container-h1 {
+  font-family: "Montserrat Black";
+}
+.text-light {
+  font-family: "Montserrat Light";
+  font-size: 16px;
+}

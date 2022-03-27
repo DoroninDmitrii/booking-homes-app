@@ -1,0 +1,64 @@
+.house_card {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.container-btns-housecard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+#delete-btn-adminhousecard {
+  border: none;
+  background: -webkit-linear-gradient(135deg,
+      rgb(207, 158, 152),
+      rgb(184, 114, 86));
+  border-radius: 5px;
+  /* border: rgb(184, 114, 86) 2px solid; */
+  box-shadow: 4px 4px 8px 0px rgba(169, 43, 39, 0.48);
+}
+
+
+.house_card__btn-box {
+  margin: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: transparent;
+  background: -webkit-linear-gradient(135deg,
+      rgb(152, 207, 195),
+      rgb(86, 181, 184));
+  background: -moz-linear-gradient(135deg,
+      rgb(152, 207, 195),
+      rgb(86, 181, 184));
+  background: linear-gradient(135deg, rgb(152, 207, 195), rgb(86, 181, 184));
+  box-shadow: 4px 4px 8px 0px rgba(39, 169, 157, 0.48);
+  transition: 400ms;
+}
+
+/* #delete-btn-adminhousecard {
+  background: -moz-linear-gradient(135deg,
+      rgb(207, 158, 152),
+      rgb(184, 114, 86));
+} */
+
+.house_card__btns_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat Light";
+  font-weight: 600;
+  font-size: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.house_card__btn-box:hover {
+  transform: scale(1.05);
+  transition: 400ms ease-out;
+}

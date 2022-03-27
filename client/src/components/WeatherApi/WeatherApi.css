@@ -1,0 +1,13 @@
+.api-weather-container {
+  color: rgba(86, 181, 184);
+  font-family: "Montserrat Medium";
+  margin-left: 20px;
+  font-size: 17px;
+}
+.location-logo {
+  position: absolute;
+  max-width: 100%;
+  height: 30px;
+  margin-top: -9px;
+  margin-left: -35px;
+}

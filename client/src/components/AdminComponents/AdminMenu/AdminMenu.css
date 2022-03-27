@@ -1,0 +1,13 @@
+.adminmenu-title {
+  font-family: "Montserrat Light";
+}
+.adminmenu-link {
+  font-family: "Montserrat Regular";
+  font-size: 20px;
+  color: rgb(86, 181, 184);
+  text-decoration: underline;
+}
+.adminmenu-link:hover {
+
+  text-decoration: none;
+}
